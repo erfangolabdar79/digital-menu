@@ -12,12 +12,14 @@ body {
 }
 
 .overlay {
-  background: rgba(0, 0, 0, 0.55); /* لایه تیره برای وضوح متن */
+  background: rgba(0, 0, 0, 0.55);
   height: 100%;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;   /* به جای center */
+  padding-top: 70px;         /* فاصله از بالای صفحه */
 }
+
 
 .welcome-box {
   text-align: center;
@@ -30,12 +32,20 @@ body {
 }
 
 .welcome-box h1 {
-  margin-bottom: 20px;
-  font-size: 1.8rem;
+  margin-bottom: 25px;
+  font-size: 2.4rem;   /* بزرگ‌تر از قبل */
+  font-weight: 700;
   color: #fff;
-  text-shadow: 0 2px 6px rgba(0,0,0,0.8); /* سایه برای وضوح */
+  text-shadow: 0 3px 8px rgba(0,0,0,0.9);
 }
 
+.logo {
+  width: 200px;       /* اندازه لوگو */
+  height: auto;
+  margin-bottom: 5px;
+  border-radius: 50%; /* اگر بخوای دایره‌ای بشه */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+}
 .btn {
   display: inline-block;
   margin: 15px 0;
@@ -43,6 +53,7 @@ body {
   background: linear-gradient(90deg, #b23c17, #f7a400);
   color: #fff;
   text-decoration: none;
+  font-size: 1.4rem;
   font-weight: bold;
   border-radius: 8px;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
@@ -52,12 +63,22 @@ body {
   transform: translateY(-3px);
   box-shadow: 0 6px 18px rgba(0,0,0,0.4);
 }
+.phone-link {
+  color: #ffd54f;          /* رنگ زرد طلایی برای جلب توجه */
+  font-weight: bold;
+  text-decoration: none;
+  text-shadow: 0 2px 6px rgba(0,0,0,0.8);
+}
 
+.phone-link:hover {
+  color: #fff176;          /* روشن‌تر هنگام هاور */
+  text-decoration: underline;
+}
 .info {
-  margin: 8px 0;
-  font-size: 1rem;
+  margin: 10px 0;
+  font-size: 1.3rem;
   color: #f1f1f1; /* سفید روشن */
-  text-shadow: 0 1px 4px rgba(0,0,0,0.8);
+  text-shadow: 0 2px 6px rgba(0,0,0,0.8);
 }
 
 @keyframes fadeIn {

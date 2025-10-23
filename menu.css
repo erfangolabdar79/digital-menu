@@ -1,0 +1,189 @@
+/* پایه */
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Vazirmatn', sans-serif;
+  background: #f9f9f9;
+  direction: rtl;
+}
+
+/* تسک بار بالا */
+.navbar {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background: #fff;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  padding: 10px 16px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo {
+  width: 48px;
+  height: auto;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  gap: 8px;
+}
+
+.navbar li { margin: 0; }
+
+.navbar button {
+  display: flex;
+  align-items: center;
+  gap: 8px;              /* فاصله بین آیکون و متن */
+  background: none;
+  border: none;
+  font-size: 1.3rem;     /* متن بزرگ‌تر */
+  font-weight: 700;
+  cursor: pointer;
+  padding: 10px 16px;    /* کمی padding بیشتر برای هماهنگی */
+  border-radius: 10px;
+  transition: color 0.2s, background 0.2s;
+}
+
+.navbar button:hover {
+  color: #b23c17;
+  background: rgba(178,60,23,0.08);
+}
+
+.navbar button.active {
+  color: #b23c17;
+  border-bottom: 2px solid #b23c17;
+}
+
+/* آیکون‌های دسته‌ها */
+.navbar button .icon {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+/* بنر */
+.banner {
+  display: none; /* پیش‌فرض مخفی، فقط صبحانه نمایش */
+  background: #d32f2f;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+/* محتوا */
+.menu {
+  padding: 16px;
+}
+
+.placeholder {
+  color: #666;
+  font-size: 1rem;
+  text-align: center;
+}
+
+/* کارت آیتم مطابق خواسته: عنوان بالا، توضیح زیر، تصویر روبه‌رو */
+.menu-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  background: #fff;
+  margin-bottom: 12px;
+  padding: 16px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  opacity: 0;
+  transform: translateY(10px);
+  animation: fadeInUp 0.4s forwards;
+}
+
+.menu-item .text {
+  flex: 1;
+  min-width: 0;
+}
+
+.menu-item h3 {
+  margin: 0 0 6px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #222;
+}
+
+.menu-item p {
+  margin: 0;
+  color: #666;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.menu-item img {
+  width: 110px;
+  height: 86px;
+  object-fit: cover;
+  border-radius: 10px;
+  flex-shrink: 0;
+}
+
+/* انیمیشن */
+@keyframes fadeInUp {
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* ریسپانسیو موبایل */
+@media (max-width: 768px) {
+  .navbar {
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px 12px;
+  }
+  .logo { width: 40px; }
+  .navbar ul { gap: 6px; }
+  .navbar button {
+    font-size: 1.1rem;
+    padding: 8px 10px;
+    border-radius: 8px;
+  }
+  .navbar button .icon {
+    width: 22px;
+    height: 22px;
+  }
+  .menu {
+    padding: 12px;
+  }
+  .menu-item {
+    padding: 14px;
+    gap: 12px;
+  }
+  .menu-item img {
+    width: 96px;
+    height: 76px;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar button {
+    font-size: 1rem;
+    padding: 6px 8px;
+    border-radius: 8px;
+  }
+  .navbar button .icon {
+    width: 20px;
+    height: 20px;
+  }
+  .menu-item {
+    flex-direction: row; /* تصویر همچنان روبه‌رو */
+  }
+  .menu-item img {
+    width: 88px;
+    height: 72px;
+  }
+}

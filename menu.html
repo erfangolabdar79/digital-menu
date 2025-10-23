@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>منوی باغچه پونه</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="menu.css">
+</head>
+<body>
+  <!-- تسک‌بار بالا با آیکون هر دسته -->
+  <header class="navbar">
+    <img src="images/logo.png" alt="لوگوی باغچه پونه" class="logo">
+    <nav>
+      <ul>
+        <li>
+          <button data-cat="breakfast">
+            <img src="images/icons/breakfast.png" alt="آیکون صبحانه" class="icon">
+            صبحانه
+          </button>
+        </li>
+        <li>
+          <button data-cat="main">
+            <img src="images/icons/main.png" alt="آیکون غذای اصلی" class="icon">
+            غذای اصلی
+          </button>
+        </li>
+        <li>
+          <button data-cat="snacks">
+            <img src="images/icons/snacks.png" alt="آیکون مخلفات" class="icon">
+            مخلفات و تنقلات
+          </button>
+        </li>
+        <li>
+          <button data-cat="drinks">
+            <img src="images/icons/drinks.png" alt="آیکون نوشیدنی" class="icon">
+            نوشیدنی
+          </button>
+        </li>
+        <li>
+          <button data-cat="hot">
+            <img src="images/icons/hot.png" alt="آیکون نوشیدنی گرم" class="icon">
+            نوشیدنی گرم
+          </button>
+        </li>
+        <li>
+          <button data-cat="cold">
+            <img src="images/icons/cold.png" alt="آیکون نوشیدنی سرد" class="icon">
+            نوشیدنی سرد
+          </button>
+        </li>
+        <li>
+          <button data-cat="hookah">
+            <img src="images/icons/hookah.png" alt="آیکون قلیان" class="icon">
+            قلیان
+          </button>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- بنر: فقط برای صبحانه نمایش داده می‌شود -->
+  <section class="banner" id="banner"></section>
+
+  <!-- محتوای منو (کارت‌ها زیر هم، بدون قیمت و دکمه افزودن) -->
+  <main class="menu" id="menu">
+    <h2 class="placeholder">لطفاً یک دسته‌بندی انتخاب کنید</h2>
+  </main>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

@@ -16,36 +16,35 @@ body {
   height: 100%;
   display: flex;
   justify-content: center;
-  align-items: flex-start;   /* به جای center */
-  padding-top: 70px;         /* فاصله از بالای صفحه */
+  align-items: flex-start;
+  padding-top: 10px;
 }
-
 
 .welcome-box {
   text-align: center;
   color: #fff;
-  background: rgba(0,0,0,0.65); /* پس‌زمینه نیمه‌شفاف پشت متن */
-  padding: 30px 40px;
+  background: rgba(0,0,0,0.65);
+  padding: 0;
   border-radius: 15px;
   box-shadow: 0 8px 25px rgba(0,0,0,0.5);
   animation: fadeIn 1.2s ease;
 }
 
 .welcome-box h1 {
-  margin-bottom: 25px;
-  font-size: 2.4rem;   /* بزرگ‌تر از قبل */
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-size: 2.4rem;
   font-weight: 700;
-  color: #fff;
   text-shadow: 0 3px 8px rgba(0,0,0,0.9);
 }
 
 .logo {
-  width: 200px;       /* اندازه لوگو */
+  width: 200px;
   height: auto;
   margin-bottom: 5px;
-  border-radius: 50%; /* اگر بخوای دایره‌ای بشه */
   box-shadow: 0 4px 12px rgba(0,0,0,0.5);
 }
+
 .btn {
   display: inline-block;
   margin: 15px 0;
@@ -63,21 +62,22 @@ body {
   transform: translateY(-3px);
   box-shadow: 0 6px 18px rgba(0,0,0,0.4);
 }
+
 .phone-link {
-  color: #ffd54f;          /* رنگ زرد طلایی برای جلب توجه */
+  color: #ffd54f;
   font-weight: bold;
   text-decoration: none;
   text-shadow: 0 2px 6px rgba(0,0,0,0.8);
 }
-
 .phone-link:hover {
-  color: #fff176;          /* روشن‌تر هنگام هاور */
+  color: #fff176;
   text-decoration: underline;
 }
+
 .info {
   margin: 10px 0;
   font-size: 1.3rem;
-  color: #f1f1f1; /* سفید روشن */
+  color: #f1f1f1;
   text-shadow: 0 2px 6px rgba(0,0,0,0.8);
 }
 

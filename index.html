@@ -2,42 +2,67 @@
 <html lang="fa" dir="rtl">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>منوی دیجیتال</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>باغچه پونه | ورود</title>
+  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header>
-    <h1>🍽 منوی دیجیتال رستوران</h1>
+  <!-- پس‌زمینه قهرمان با گرادیان گرم مناسب فضاهای سنتی و کبابی -->
+  <div class="bg"></div>
+
+  <!-- نوار بالا با نام مجموعه و تلفن -->
+  <header class="topbar">
+    <div class="brand">
+      <span class="logo">🍢</span>
+      <div class="brand-text">
+        <h1>باغچه پونه</h1>
+        <p class="subtitle">جگرسرا • طعم اصیل و دورهمی گرم</p>
+      </div>
+    </div>
+    <a class="phone" href="tel:09126406023">09126406023</a>
   </header>
 
-  <section class="category">
-    <h2>🥗 پیش‌غذا</h2>
-    <ul>
-      <li><span>سالاد فصل</span><span>۴۵٬۰۰۰ تومان</span></li>
-      <li><span>سوپ جو</span><span>۳۵٬۰۰۰ تومان</span></li>
-    </ul>
-  </section>
+  <!-- کارت ورود -->
+  <main class="container">
+    <section class="card">
+      <h2>ورود به پنل</h2>
+      <p class="hint">برای مدیریت منو و سفارش‌ها وارد شوید</p>
 
-  <section class="category">
-    <h2>🍛 غذای اصلی</h2>
-    <ul>
-      <li><span>چلوکباب سلطانی</span><span>۱۸۵٬۰۰۰ تومان</span></li>
-      <li><span>زرشک‌پلو با مرغ</span><span>۹۵٬۰۰۰ تومان</span></li>
-    </ul>
-  </section>
+      <form class="login-form" action="#" method="post">
+        <label for="username">نام کاربری</label>
+        <input id="username" name="username" type="text" placeholder="مثلاً admin" required>
 
-  <section class="category">
-    <h2>🍹 نوشیدنی</h2>
-    <ul>
-      <li><span>دوغ محلی</span><span>۲۵٬۰۰۰ تومان</span></li>
-      <li><span>نوشابه قوطی</span><span>۲۰٬۰۰۰ تومان</span></li>
-    </ul>
-  </section>
+        <label for="password">رمز عبور</label>
+        <input id="password" name="password" type="password" placeholder="••••••••" required>
 
-  <footer>
-    <p>© 2025 رستوران شما</p>
+        <button type="submit" class="btn-primary">ورود</button>
+      </form>
+
+      <div class="extras">
+        <a href="#" class="link">فراموشی رمز عبور</a>
+        <span class="sep">•</span>
+        <a href="#" class="link">راهنمای استفاده</a>
+      </div>
+    </section>
+
+    <!-- اطلاعات تماس و ساعات کاری -->
+    <aside class="info">
+      <div class="info-card">
+        <h3>تماس و رزرو</h3>
+        <p>برای رزرو تخت یا سفارش تلفنی تماس بگیرید:</p>
+        <a class="phone-large" href="tel:09126406023">09126406023</a>
+      </div>
+      <div class="info-card">
+        <h3>ساعات کاری</h3>
+        <p>هر روز ۱۱:۰۰ تا ۰۰:۳۰</p>
+      </div>
+    </aside>
+  </main>
+
+  <!-- پابرگ -->
+  <footer class="footer">
+    <p>© 2025 باغچه پونه • تمامی حقوق محفوظ است</p>
   </footer>
 </body>
 </html>

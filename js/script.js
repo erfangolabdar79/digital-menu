@@ -54,10 +54,10 @@ const menus = {
     { name: "نسکافه", desc: "قهوه فوری", img: "images/nescafe.jpg" }
   ],
   cold: [
-    { name: "آب طالبی", desc: "خنک و طبیعی", img: "images/melon.jpg" },
-    { name: "آب هندوانه", desc: "آب هندوانه تازه", img: "images/watermelon.jpg" },
+    { name: "آب طالبی", desc: "خنک و طبیعی", img: "images/melon.png" },
+    { name: "آب هندوانه", desc: "آب هندوانه تازه", img: "images/watermelon.png" },
     { name: "موهیتو طبیعی", desc: "موهیتوی خنک", img: "images/mojito.jpg" },
-    { name: "هندوانه", desc: "برش هندوانه تازه", img: "images/watermelon-slice.jpg" }
+    { name: "هندوانه", desc: "برش هندوانه تازه", img: "images/watermelon-slice.png" }
   ],
   hookah: [
     { name: "پرتقال خامه", desc: "طعم پرتقال و خامه", img: "images/yek.png" },

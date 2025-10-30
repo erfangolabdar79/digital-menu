@@ -60,7 +60,7 @@ const menus = {
     { name: "هندوانه", desc: "برش هندوانه تازه", img: "images/watermelon-slice.jpg" }
   ],
   hookah: [
-    { name: "پرتقال خامه", desc: "طعم پرتقال و خامه", img: "images/hookah1.JPG" },
+    { name: "پرتقال خامه", desc: "طعم پرتقال و خامه", img: "images/hookah1.png" },
     { name: "پرتقال نعنا", desc: "پرتقال با نعنا", img: "images/hookah2.jpg" },
     { name: "لیمو نعنا", desc: "لیمو و نعنا", img: "images/hookah3.jpg" },
     { name: "آدامس نعنا", desc: "طعم آدامس و نعنا", img: "images/hookah4.jpg" },
@@ -77,7 +77,7 @@ const menus = {
     { name: "انگور سیاه", desc: "انگور سیاه", img: "images/hookah15.jpg" },
     { name: "انبه", desc: "انبه تازه", img: "images/hookah16.jpg" },
     { name: "آدامس دارچین", desc: "طعم آدامس دارچین", img: "images/hookah17.jpg" },
-    { name: "تمشک بستنی", desc: "طعم تمشک با بستنی", img: "images/hookah18.jpg" }
+    { name: "تمشک بستنی", desc: "طعم تمشک با بستنی", img: "images/hookah18.png" }
   ]
 };
 

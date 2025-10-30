@@ -59,7 +59,7 @@ const menus = {
     { name: "موهیتو طبیعی", desc: "موهیتوی خنک", img: "images/mojito.jpg" },
     { name: "هندوانه", desc: "برش هندوانه تازه", img: "images/watermelon-slice.jpg" }
   ],
-  hookah: [
+  hookaha: [
     { name: "پرتقال خامه", desc: "طعم پرتقال و خامه", img: "images/hookah1.jpg" },
     { name: "پرتقال نعنا", desc: "پرتقال با نعنا", img: "images/hookah2.jpg" },
     { name: "لیمو نعنا", desc: "لیمو و نعنا", img: "images/hookah3.jpg" },

@@ -60,24 +60,24 @@ const menus = {
     { name: "هندوانه", desc: "برش هندوانه تازه", img: "images/watermelon-slice.jpg" }
   ],
   hookah: [
-    { name: "پرتقال خامه", desc: "طعم پرتقال و خامه", img: "images/hookah.jpg" },
-    { name: "پرتقال نعنا", desc: "پرتقال با نعنا", img: "images/hookah.jpg" },
-    { name: "لیمو نعنا", desc: "لیمو و نعنا", img: "images/hookah.jpg" },
-    { name: "آدامس نعنا", desc: "طعم آدامس و نعنا", img: "images/hookah.jpg" },
-    { name: "نعنا", desc: "نعنای خالص", img: "images/hookah.jpg" },
-    { name: "دوسیب", desc: "طعم کلاسیک دوسیب", img: "images/hookah.jpg" },
-    { name: "دوسیب آلبالو", desc: "دوسیب با آلبالو", img: "images/hookah.jpg" },
-    { name: "دوسیب نعنا", desc: "دوسیب با نعنا", img: "images/hookah.jpg" },
-    { name: "سیب یخ", desc: "سیب خنک", img: "images/hookah.jpg" },
-    { name: "لاو", desc: "طعم لاو", img: "images/hookah.jpg" },
-    { name: "بلوبری", desc: "بلوبری خنک", img: "images/hookah.jpg" },
-    { name: "شب های مسکو", desc: "طعم خاص شب‌های مسکو", img: "images/hookah.jpg" },
-    { name: "هندوانه یخ", desc: "هندوانه خنک", img: "images/hookah.jpg" },
-    { name: "آلو یخ", desc: "آلو خنک", img: "images/hookah.jpg" },
-    { name: "انگور سیاه", desc: "انگور سیاه", img: "images/hookah.jpg" },
-    { name: "انبه", desc: "انبه تازه", img: "images/hookah.jpg" },
-    { name: "آدامس دارچین", desc: "طعم آدامس دارچین", img: "images/hookah.jpg" },
-    { name: "تمشک بستنی", desc: "طعم تمشک با بستنی", img: "images/hookah.jpg" }
+    { name: "پرتقال خامه", desc: "طعم پرتقال و خامه", img: "images/hookah1.jpg" },
+    { name: "پرتقال نعنا", desc: "پرتقال با نعنا", img: "images/hookah2.jpg" },
+    { name: "لیمو نعنا", desc: "لیمو و نعنا", img: "images/hookah3.jpg" },
+    { name: "آدامس نعنا", desc: "طعم آدامس و نعنا", img: "images/hookah4.jpg" },
+    { name: "نعنا", desc: "نعنای خالص", img: "images/hookah5.jpg" },
+    { name: "دوسیب", desc: "طعم کلاسیک دوسیب", img: "images/hookah6.jpg" },
+    { name: "دوسیب آلبالو", desc: "دوسیب با آلبالو", img: "images/hookah7.jpg" },
+    { name: "دوسیب نعنا", desc: "دوسیب با نعنا", img: "images/hookah8.jpg" },
+    { name: "سیب یخ", desc: "سیب خنک", img: "images/hookah9.jpg" },
+    { name: "لاو", desc: "طعم لاو", img: "images/hookah10.jpg" },
+    { name: "بلوبری", desc: "بلوبری خنک", img: "images/hookah11.jpg" },
+    { name: "شب های مسکو", desc: "طعم خاص شب‌های مسکو", img: "images/hookah12.jpg" },
+    { name: "هندوانه یخ", desc: "هندوانه خنک", img: "images/hookah13.jpg" },
+    { name: "آلو یخ", desc: "آلو خنک", img: "images/hookah14.jpg" },
+    { name: "انگور سیاه", desc: "انگور سیاه", img: "images/hookah15.jpg" },
+    { name: "انبه", desc: "انبه تازه", img: "images/hookah16.jpg" },
+    { name: "آدامس دارچین", desc: "طعم آدامس دارچین", img: "images/hookah17.jpg" },
+    { name: "تمشک بستنی", desc: "طعم تمشک با بستنی", img: "images/hookah18.jpg" }
   ]
 };
 

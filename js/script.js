@@ -9,40 +9,40 @@ const menus = {
     { name: "صبحانه سنتی", desc: "پنیر، گردو، خیار و گوجه", img: "images/traditional-breakfast.jpg" }
   ],
   main: [
-    { name: "جگر", desc: "جگر تازه کبابی", img: "images/jigar.jpg" },
-    { name: "دل", desc: "دل گوسفندی کبابی", img: "images/del.jpg" },
-    { name: "قلوه", desc: "قلوه تازه کبابی", img: "images/gholveh.jpg" },
-    { name: "جگرپیچ", desc: "جگرپیچ مخصوص روی آتش", img: "images/jigar-pich.jpg" },
+    { name: "جگر", desc: "جگر تازه گوسفندی", img: "images/jigar.jpg" },
+    { name: "دل", desc: "دل تازه گوسفندی ", img: "images/del.jpg" },
+    { name: "قلوه", desc: "قلوه تازه گوسفندی", img: "images/gholveh.jpg" },
+    { name: "جگرپیچ", desc: "جگرپیچ مخصوص", img: "images/jigar-pich.jpg" },
     { name: "دنبه", desc: "دنبه تازه کبابی", img: "images/donbeh.jpg" },
-    { name: "خوئک", desc: "خوراک خوئک سنتی", img: "images/khoeyk.jpg" },
-    { name: "خوش گوشت", desc: "گوشت تازه و نرم کبابی", img: "images/khoshgoosht.jpg" },
+    { name: "خوئک", desc: " خوئک تازه کبابی", img: "images/khoeyk.jpg" },
+    { name: "خوش گوشت", desc: "    ", img: "images/khoshgoosht.jpg" },
     { name: "جوجه بدون استخوان", desc: "جوجه کباب بدون استخوان", img: "images/joje.jpg" },
     { name: "چنجه", desc: "چنجه مخصوص با گوشت تازه", img: "images/chenje.jpg" },
     { name: "بال کبابی (5 تکه)", desc: "بال مرغ کبابی", img: "images/wing.jpg" },
     { name: "بازو کبابی (4 تکه)", desc: "بازوی مرغ کبابی", img: "images/bazu.jpg" },
     { name: "پنیر کبابی", desc: "پنیر مخصوص کبابی", img: "images/paneer.jpg" },
     { name: "قارچ کبابی", desc: "قارچ تازه کبابی", img: "images/mushroom.jpg" },
-    { name: "سوسیس شکاری", desc: "سوسیس شکاری داغ", img: "images/sausage.jpg" },
-    { name: "سوسیس پنیری", desc: "سوسیس با پنیر", img: "images/cheese-sausage.jpg" },
+    { name: "سوسیس شکاری", desc: "سوسیس شکاری کبابی", img: "images/sausage.jpg" },
+    { name: "سوسیس پنیری", desc: "سوسیس پنیری کبابی", img: "images/cheese-sausage.jpg" },
     { name: "سیب زمینی سرخ شده", desc: "سیب زمینی تازه و ترد", img: "images/fries.jpg" },
     { name: "میرزاقاسمی", desc: "غذای سنتی شمالی", img: "images/mirza.jpg" }
   ],
   snacks: [
-    { name: "گوجه کبابی", desc: "گوجه تازه روی آتش", img: "images/tomato.jpg" },
+    { name: "گوجه کبابی", desc: "گوجه تازه", img: "images/tomato.jpg" },
     { name: "ماست موسیر", desc: "ماست موسیر محلی", img: "images/yogurt.jpg" },
     { name: "زیتون", desc: "زیتون تازه", img: "images/olive.jpg" },
     { name: "زیتون پرورده", desc: "زیتون پرورده شمالی", img: "images/olive-mix.jpg" },
     { name: "ترشی", desc: "ترشی خانگی", img: "images/torshi.jpg" },
     { name: "چیپس", desc: "چیپس بسته‌ای", img: "images/chips.jpg" },
-    { name: "تخمه", desc: "تخمه آفتابگردان", img: "images/seeds.jpg" },
+    { name: "تخمه", desc: " ", img: "images/seeds.jpg" },
     { name: "بادام زمینی", desc: "بادام زمینی بو داده", img: "images/peanut.jpg" },
-    { name: "بستنی", desc: "سنتی یا میوه‌ای", img: "images/icecream.jpg" }
+    { name: "بستنی", desc: "سنتی و میوه‌ای", img: "images/icecream.jpg" }
   ],
   drinks: [
     { name: "نوشابه", desc: "کوکا، کوکا زیرو، فانتا، لیموناد، اسپرایت", img: "images/soda.jpg" },
-    { name: "دوغ", desc: "آبعلی یا سنتی", img: "images/doogh.jpg" },
-    { name: "دلستر", desc: "استوایی یا لیمویی", img: "images/delster.jpg" },
-    { name: "آب معدنی", desc: "خنک و تازه", img: "images/water.jpg" }
+    { name: "دوغ", desc: "آبعلی و سنتی", img: "images/doogh.jpg" },
+    { name: "دلستر", desc: "استوایی و لیمویی", img: "images/delster.jpg" },
+    { name: "آب معدنی", desc: " ", img: "images/water.jpg" }
   ],
   hot: [
     { name: "سرویس چای", desc: "چای ایرانی", img: "images/tea.jpg" },

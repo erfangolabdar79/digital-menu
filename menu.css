@@ -171,7 +171,7 @@ html, body {
   margin-top: 6px;
   font-size: 1rem;
   font-weight: bold;
-  color: #b23c17;
+  color: #060606;
 }
 
 }
@@ -193,4 +193,10 @@ html, body {
     width: 88px;
     height: 72px;
   }
+  .price {
+  margin-top: 6px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #060606;
+}
 }

@@ -17,7 +17,7 @@ const menus = {
     { name: "خوئک", desc: " خوئک تازه کبابی", img: "images/khoeyk.jpg" },
     { name: "خوش گوشت", desc: "    ", img: "images/khoshgoosht.jpg" },
     { name: "جوجه بدون استخوان", desc: "جوجه کباب بدون استخوان", img: "images/joje.jpg" },
-    { name: "چنجه", desc: "چنجه مخصوص با گوشت تازه", img: "images/chenje.jpg" },
+    { name: "چنجه", desc: "گوشت تازه و دنبه", img: "images/chenje.jpg" },
     { name: "بال کبابی (5 تکه)", desc: "بال مرغ کبابی", img: "images/wing.jpg" },
     { name: "بازو کبابی (4 تکه)", desc: "بازوی مرغ کبابی", img: "images/bazu.jpg" },
     { name: "پنیر کبابی", desc: "پنیر مخصوص کبابی", img: "images/paneer.jpg" },

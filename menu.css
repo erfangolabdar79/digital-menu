@@ -167,6 +167,13 @@ html, body {
     width: 96px;
     height: 76px;
   }
+  .price {
+  margin-top: 6px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #b23c17;
+}
+
 }
 
 @media (max-width: 480px) {

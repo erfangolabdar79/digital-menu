@@ -1,12 +1,12 @@
 // داده‌های منو از Menu.txt
 const menus = {
   breakfast: [
-    { name: "نیمرو", desc: "تازه و داغ", img: "images/nimroo.jpg" },
-    { name: "املت سنتی", desc: "با گوجه تازه", img: "images/omlet.jpg" },
-    { name: "املت سوسیس", desc: "املت با سوسیس", img: "images/omlet-sosis.jpg" },
-    { name: "سوسیس تخم مرغ", desc: "سوسیس و تخم مرغ", img: "images/sosis-egg.jpg" },
-    { name: "سوسیس تخم مرغ ویژه", desc: "همراه با سیب زمینی و قارچ", img: "images/sosis-egg-special.jpg" },
-    { name: "صبحانه سنتی", desc: "پنیر، گردو، خیار و گوجه", img: "images/traditional-breakfast.jpg" }
+    { name: "نیمرو", desc: "تازه و داغ", img: "images/nimroo.jpg",price: "40,000 تومان" },
+    { name: "املت سنتی", desc: "با گوجه تازه", img: "images/omlet.jpg",price: "40,000 تومان"  },
+    { name: "املت سوسیس", desc: "املت با سوسیس", img: "images/omlet-sosis.jpg",price: "40,000 تومان"  },
+    { name: "سوسیس تخم مرغ", desc: "سوسیس و تخم مرغ", img: "images/sosis-egg.jpg" ,price: "40,000 تومان" },
+    { name: "سوسیس تخم مرغ ویژه", desc: "همراه با سیب زمینی و قارچ", img: "images/sosis-egg-special.jpg",price: "40,000 تومان"  },
+    { name: "صبحانه سنتی", desc: "پنیر، گردو، خیار و گوجه", img: "images/traditional-breakfast.jpg",price: "40,000 تومان"  }
   ],
   main: [
     { name: "جگر", desc: "جگر تازه گوسفندی", img: "images/jigar.jpg" },
@@ -102,6 +102,7 @@ function createMenuItem(item) {
     <div class="text">
       <h3>${item.name}</h3>
       <p>${item.desc || ""}</p>
+      <p class="price">${item.price || ""}</p>
     </div>
     <img src="${item.img || ''}" alt="${item.name}"
          onerror="this.style.display='none'">

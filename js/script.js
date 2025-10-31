@@ -60,7 +60,7 @@ const menus = {
     { name: "هندوانه", desc: "برش هندوانه تازه", img: "images/watermelon-slice.png" }
   ],
   hookah: [
-    { name: "پرتقال خامه", desc: "طعم پرتقال و خامه", img: "images/yek.png",price: "250,000 تومان" },
+    { name: "پرتقال خامه", desc: "طعم پرتقال و خامه", img: "images/yek.png"},
     { name: "پرتقال نعنا", desc: "پرتقال با نعنا", img: "images/hookah2.png" },
     { name: "لیمو نعنا", desc: "لیمو و نعنا", img: "images/hookah3.png" },
     { name: "آدامس نعنا", desc: "طعم آدامس و نعنا", img: "images/hookah4.png" },

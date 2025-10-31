@@ -45,7 +45,7 @@ const menus = {
     { name: "آب معدنی", desc: " ", img: "images/water.jpg" }
   ],
   hot: [
-    { name: "سرویس چای", desc: "چای ایرانی", img: "images/tea.jpg" },
+    { name: "سرویس چای", desc: "چای ایرانی همراه با نبات، بیسکوئیت و قند", img: "images/tea.jpg" },
     { name: "چای دارچین", desc: "چای معطر دارچین", img: "images/cinnamon-tea.jpg" },
     { name: "چای زعفران", desc: "چای با زعفران", img: "images/saffron-tea.jpg" },
     { name: "چای گل محمدی", desc: "چای با گل محمدی", img: "images/rose-tea.jpg" },
